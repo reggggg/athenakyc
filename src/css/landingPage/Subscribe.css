@@ -1,0 +1,105 @@
+.subscribe {
+  width: 100%;
+  margin: 0;
+  border-top: 6px solid #DB8655;
+  background: url('../../images/BG-Footer.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* background-attachment: fixed; */
+  background-size: cover;
+}
+.subscribe .subscribeContent {
+  padding: 80px 0;
+}
+.subscribe .subscribeContent .titleBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe .subscribeContent .titleBar .blockLine {
+  width: 50px;
+  height: 6px;
+  background: #fff;
+}
+.subscribe .subscribeContent .titleBar .blockLine span {
+
+}
+.subscribe .subscribeContent .titleBar span.indexNumber {
+  font-family: 'FiraSans-Medium';
+  font-size: 10px;
+  margin: 0 14px;
+  color: #fff;
+}
+.subscribe .subscribeContent .titleBar span.indexName {
+  font-family: 'FiraSans-Medium';
+  font-size: 16px;
+  color: #fff;
+}
+.subscribe .subscribeContent .body {
+
+}
+.subscribe .subscribeContent .body h2 {
+  font-family: 'FiraSans-Bold';
+  font-size: 34px;
+  color: #DB8655;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 38px;
+}
+@media(max-width: 700px){
+  .subscribe .subscribeContent .body h2 {
+    width: 100%;
+  }
+}
+.subscribe .subscribeContent .body .form {
+  width: 60%;
+  margin: 20px auto;
+}
+
+@media(max-width: 530px){
+  .subscribe .subscribeContent .body .form{
+    width: 95%;
+  }
+}
+.subscribe .subscribeContent .body .form .col-md-8,
+.subscribe .subscribeContent .body .form .col-md-4 {
+  padding: 0 4px;
+}
+.subscribe .subscribeContent .body .form input {
+  border: 1px solid #FFFFFF;
+  background: Transparent;
+  font-family: 'FiraSans-Regular';
+  font-size: 14px;
+  width: 100%;
+  height: 38px;
+  padding: 5px 12px;
+  color: #D0BBA4;
+  border-radius: 0;
+  outline: none;
+  margin-bottom: 10px;
+}
+.subscribe .subscribeContent .body .form button {
+  width: 100%;
+  height: 38px;
+  background-image: linear-gradient(-180deg, #E58B69 0%, #CB713E 100%);
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #CB713E;
+  padding: 0;
+  border-radius: 0;
+  font-size: 15px;
+  outline: none;
+  font-family: 'FiraSans-Regular';
+}
+.subscribe .subscribeContent .body center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe .subscribeContent .body center label {
+  margin: 0 20px;
+  font-family: 'FiraSans-Regular';
+  color: #fff;
+  font-size: 13px;
+}

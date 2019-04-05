@@ -1,0 +1,113 @@
+.benefits {
+  width: 100%;
+  margin: 0;
+}
+.benefits .benefitsContent {
+  padding: 80px 0;
+}
+.benefits .benefitsContent .firstRow .right {
+
+}
+.benefits .benefitsContent .firstRow .right .titleBar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.benefits .benefitsContent .firstRow .right .titleBar .blockLine {
+  width: 50px;
+  height: 6px;
+  background: #DB8655;
+}
+.benefits .benefitsContent .firstRow .right .titleBar span {
+
+}
+.benefits .benefitsContent .firstRow .right .titleBar span.indexNumber {
+  font-family: 'FiraSans-Medium';
+  font-size: 10px;
+  margin: 0 14px;
+  color: #9B9B91;
+}
+.benefits .benefitsContent .firstRow .right .titleBar span.indexName {
+  font-family: 'FiraSans-Medium';
+  font-size: 16px;
+  color: #64645B;
+}
+.benefits .benefitsContent .firstRow .right .body {
+  margin-top: 25px;
+}
+.benefits .benefitsContent .firstRow .right .body h2 {
+  font-family: 'FiraSans-Bold';
+  font-size: 34px;
+  color: #DB8655;
+  line-height: 38px;
+}
+.benefits .benefitsContent .firstRow .right .body p {
+  font-family: 'FiraSans-Regular';
+  font-size: 14px;
+  color: #64645B;
+  margin-top: 30px;
+}
+
+.benefits .benefitsContent .secondRow {
+  margin-top: 80px;
+}
+.benefits .benefitsContent .secondRow .left .titleBar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.benefits .benefitsContent .secondRow .left .titleBar .blockLine {
+  width: 50px;
+  height: 6px;
+  background: #DB8655;
+}
+.benefits .benefitsContent .secondRow .left .titleBar span {
+
+}
+.benefits .benefitsContent .secondRow .left .titleBar span.indexNumber {
+  font-family: 'FiraSans-Medium';
+  font-size: 10px;
+  margin: 0 14px;
+  color: #9B9B91;
+}
+.benefits .benefitsContent .secondRow .left .titleBar span.indexName {
+  font-family: 'FiraSans-Medium';
+  font-size: 16px;
+  color: #64645B;
+}
+.benefits .benefitsContent .secondRow .left .body {
+  margin-top: 25px;
+}
+.benefits .benefitsContent .secondRow .left .body h2 {
+  font-family: 'FiraSans-Bold';
+  font-size: 34px;
+  color: #DB8655;
+  line-height: 38px;
+}
+
+.benefits .benefitsContent .thirdRow {
+  margin-top: 35px;
+}
+.benefits .benefitsContent .thirdRow label {
+  font-family: 'FiraSans-Medium';
+  font-size: 10px;
+  color: #9B9B91;
+}
+.benefits .benefitsContent .thirdRow img {
+  width: 55px;
+  height: 41px;
+}
+.benefits .benefitsContent .thirdRow h5 {
+  margin: 20px 0;
+  font-family: 'FiraSans-Regular';
+  font-size: 14px;
+  color: #64645B;
+}
+.benefits .benefitsContent .thirdRow p {
+  font-family: 'FiraSans-Light';
+  font-size: 12px;
+  color: #64645B;
+  text-align: justify;
+  width: 85%;
+  margin: 0 auto;
+}

@@ -1,0 +1,112 @@
+.landingSignup {
+  width: 100%;
+  margin: 0;
+  background: url('../../images/BG-SignUp.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.landingSignupToastText {
+  font-family: 'FiraSans-Regular' !important;
+  font-size: 13px !important;
+  margin: 0;
+  color: #fff;
+}
+.landingSignup .landingSignupContent {
+  padding: 80px 0;
+}
+
+.landingSignup .landingSignupContent .right {
+
+}
+.landingSignup .landingSignupContent .right .titleBar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.landingSignup .landingSignupContent .right .titleBar .blockLine {
+  width: 50px;
+  height: 6px;
+  background: #fff;
+}
+.landingSignup .landingSignupContent .right .titleBar span {
+
+}
+.landingSignup .landingSignupContent .right .titleBar span.indexNumber {
+  font-family: 'FiraSans-Medium';
+  font-size: 10px;
+  margin: 0 14px;
+  color: #fff;
+}
+.landingSignup .landingSignupContent .right .titleBar span.indexName {
+  font-family: 'FiraSans-Medium';
+  font-size: 16px;
+  color: #fff;
+}
+.landingSignup .landingSignupContent .right .body {
+  margin-top: 25px;
+}
+.landingSignup .landingSignupContent .right .body h2{
+  font-family: 'FiraSans-Bold';
+  font-size: 34px;
+  color: #fff;
+  line-height: 38px;
+}
+.landingSignup .landingSignupContent .right .body .form {
+  margin-top: 15px;
+}
+.landingSignup .landingSignupContent .right .body .form .signupAlert {
+  margin: 0;
+  font-family: 'FiraSans-Regular';
+  font-size: 14px;
+}
+.landingSignup .landingSignupContent .right .body .form input[type="text"],
+.landingSignup .landingSignupContent .right .body .form input[type="password"],
+.landingSignup .landingSignupContent .right .body .form input[type="email"] {
+  margin: 12px 0;
+  background-color: Transparent;
+  border: none;
+  border-bottom: 1px solid #f1f2f6;
+  font-family: 'FiraSans-Regular';
+  font-size: 14px;
+  width: 100%;
+  color: #fff;
+  outline: none;
+  border-radius: 1px;
+  padding: 15px 4px 15px 4px;
+}
+.landingSignup .landingSignupContent .right .body .form input::placeholder {
+  color: #e4e4e4;
+}
+.landingSignup .landingSignupContent .right .body .form input[type='checkbox']{
+  background-color: Transparent;
+  margin-right: 15px;
+}
+.landingSignup .landingSignupContent .right .body .form span.checkSpan {
+  font-family: 'FiraSans-Regular';
+  font-size: 14px;
+  color: #fff;
+  margin: 20px 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.landingSignup .landingSignupContent .right .body .form button.signupSubmit {
+  background-image: radial-gradient(50% 179%, #FFFFFF 2%, #EAE8DC 100%);
+  font-family: 'FiraSans-Medium';
+  font-size: 14px;
+  border: none;
+  width: 158px;
+  height: 38px;
+  color: #64645B;
+  float: right;
+  cursor: pointer;
+  border-radius: 2px;
+  outline: none;
+}
+@media(max-width: 440px){
+  .landingSignup .landingSignupContent .right .body .form button {
+    width: 100%;
+  }
+}

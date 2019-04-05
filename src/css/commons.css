@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'FireSans-Black';
+  src: url('../fonts/FiraSans-Black.ttf');
+}
+@font-face {
+  font-family: 'FiraSans-Bold';
+  src: url('../fonts/FiraSans-Bold.ttf');
+}
+@font-face {
+  font-family: 'FiraSans-Light';
+  src: url('../fonts/FiraSans-Light.ttf');
+}
+@font-face {
+  font-family: 'FiraSans-Medium';
+  src: url('../fonts/FiraSans-Medium.ttf');
+}
+@font-face {
+  font-family: 'FiraSans-Regular';
+  src: url('../fonts/FiraSans-Regular.ttf');
+}
+@font-face {
+  font-family: 'FiraSans-Thin';
+  src: url('../fonts/FiraSans-Thin.ttf');
+}
+
+
+input[type="checkbox"] {
+  position: relative;
+}
+input[type="checkbox"]::before{
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  font-size: 11px;
+  background-color: #e1e1e1;
+  border-radius: 1px;
+  transition: 0.2s;
+  bottom: 0;
+}
+input[type="checkbox"]:checked::before {
+  color: #fff;
+  background-color: #1e3799;
+  content: '✓';
+  transition: 0.2s;
+}

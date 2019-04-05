@@ -1,0 +1,45 @@
+.profile {
+  width: 100%;
+  margin: 0;
+}
+.profile .profileContent {
+
+}
+.profile .profileContent a {
+  font-family: 'FiraSans-Regular';
+  margin: 0;
+  font-size: 13px;
+  cursor: pointer;
+  background-color: gray;
+  color: #fff !important;
+  padding: 3px 5px;
+}
+.profile .profileContent label {
+  font-family: 'FiraSans-Regular';
+  margin: 0;
+  font-size: 13px;
+}
+.profile .profileContent input[type="text"],
+.profile .profileContent input[type="email"]{
+  width: 100%;
+  margin-bottom: 10px;
+  font-family: 'FiraSans-Regular';
+  font-size: 12px;
+  padding: 4px 8px;
+}
+.profile .profileContent input[type="file"]{
+  outline: none;
+  width: 100%;
+  margin: 10px 0;
+  font-family: 'FiraSans-Regular';
+  font-size: 12px;
+}
+.profile .profileContent button.uploadBtn {
+  font-family: 'FiraSans-Regular';
+  font-size: 12px;
+}
+.profile .profileContent img.imageOutput {
+  width: 200px;
+  height: 150px;
+  margin: 10px 0;
+}

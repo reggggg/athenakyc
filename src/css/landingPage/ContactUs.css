@@ -1,0 +1,149 @@
+.contactUs {
+  width: 100%;
+  margin: 0;
+  background: url('../../images/BG-ContactUS.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* background-attachment: fixed; */
+  background-size: cover;
+}
+.contactUs .contactUsContent {
+  padding: 80px 0;
+}
+.contactUs .contactUsContent .left {
+  padding: 0 25px;
+}
+.contactUs .contactUsContent .left .contactUsAlert {
+  font-family: 'FiraSans-Regular';
+  font-size: 13px;
+}
+.contactUs .contactUsContent .left label {
+  font-family: 'FiraSans-Light';
+  font-size: 11px;
+  color: #64645B;
+  margin: 0;
+  padding: 0 5px;
+}
+.contactUs .contactUsContent .left input {
+  background: Transparent;
+  width: 100%;
+  padding: 12px 5px;
+  font-family: 'FiraSans-Regular';
+  font-size: 13px;
+  border: none;
+  border-bottom: 1px solid #64645B;
+  border-radius: 0;
+  color: gray;
+  outline: none;
+  margin-bottom: 20px;
+}
+.contactUs .contactUsContent .left input::placeholder {
+  color: #D0BBA4;
+}
+.contactUs .contactUsContent .left textarea {
+  resize: none;
+  background: Transparent;
+  width: 100%;
+  padding: 12px 5px;
+  font-family: 'FiraSans-Regular';
+  font-size: 13px;
+  border: none;
+  border-bottom: 1px solid #64645B;
+  border-radius: 0;
+  color: gray;
+  outline: none;
+  margin-bottom: 20px;
+}
+.contactUs .contactUsContent .left textarea::placeholder {
+  color: #D0BBA4;
+}
+.contactUs .contactUsContent .left button.contactUsSubmit {
+  border: none;
+  background-image: linear-gradient(-180deg, #E58B69 0%, #CB713E 100%);
+  width: 158px;
+  height: 38px;
+  font-family: 'FiraSans-Medium';
+  font-size: 14px;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  margin: 30px 0;
+}
+
+@media(max-width: 767px){
+  .contactUs .contactUsContent .left button {
+    width: 100%;
+  }
+}
+
+
+
+.contactUs .contactUsContent .right {
+  padding: 0 60px;
+}
+.contactUs .contactUsContent .right .titleBar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.contactUs .contactUsContent .right .titleBar .blockLine {
+  width: 50px;
+  height: 6px;
+  background: #DB8655;
+}
+.contactUs .contactUsContent .right .titleBar span {
+
+}
+.contactUs .contactUsContent .right .titleBar span.indexNumber {
+  font-family: 'FiraSans-Medium';
+  font-size: 10px;
+  margin: 0 14px;
+  color: #9B9B91;
+}
+.contactUs .contactUsContent .right .titleBar span.indexName {
+  font-family: 'FiraSans-Medium';
+  font-size: 16px;
+  color: #64645B;
+}
+.contactUs .contactUsContent .right .body {
+  margin: 25px 0;
+}
+.contactUs .contactUsContent .right .body h2 {
+  font-family: 'FiraSans-Bold';
+  font-size: 34px;
+  color: #DB8655;
+  line-height: 38px;
+}
+.contactUs .contactUsContent .right .body p {
+  font-family: 'FiraSans-Regular';
+  font-size: 14px;
+  color: #64645B;
+  margin-top: 30px;
+}
+.contactUs .contactUsContent .right .body .contactDetails {
+
+}
+.contactUs .contactUsContent .right .body .contactDetails span {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 15px 0;
+  font-family: 'FiraSans-Regular';
+  font-size: 14px;
+}
+.contactUs .contactUsContent .right .body .contactDetails span img {
+  /* background-color: #E18762; */
+  width: 35px;
+  height: 35px;
+  padding: 3px 4px;
+  border-radius: 5px;
+}
+.contactUs .contactUsContent .right .body .contactDetails img {
+  width: 20px;
+  height: 20px;
+  margin: 0 10px;
+}
+.contactUs .contactUsContent .right .body .contactDetails label {
+  margin: 0 10px;
+  color: #64645B;
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon-Done</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="AthenaKYC-Proto1" transform="translate(-241.000000, -2456.000000)">
+            <g id="Roadmap-Section" transform="translate(171.000000, 2166.000000)">
+                <g id="Icon-Done" transform="translate(70.000000, 290.000000)">
+                    <rect id="Icon-RoadmapBox2" stroke="#DB8655" fill="#FFFFFF" fill-rule="nonzero" x="0.5" y="0.5" width="23" height="23"></rect>
+                    <g id="Icon-Check" transform="translate(6.000000, 8.000000)" fill="#64645B">
+                        <path d="M11.3234281,1.70795068 L4.27366347,8.87962277 C4.21156762,8.94279241 4.11102458,8.94279241 4.04907382,8.87962277 L0.0462130719,4.80739531 C-0.0157376906,4.74452086 -0.0157376906,4.64223919 0.0462130719,4.57906955 L1.01885455,3.58960875 C1.0809504,3.52658671 1.18149344,3.52658671 1.2434442,3.58960875 L4.16151373,6.55799115 L10.1263421,0.490016531 C10.188583,0.42699449 10.2888359,0.42699449 10.3509317,0.490016531 L11.3234281,1.47947733 C11.385524,1.54249937 11.385524,1.64463345 11.3234281,1.70795068 Z" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

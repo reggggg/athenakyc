@@ -1,0 +1,144 @@
+.signin {
+
+}
+.signin .loginModalBody .loginLeft {
+  font-family: 'FiraSans-Medium';
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: url('../../images/BG-SignUp.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 60px 20px;
+}
+.signin .loginModalBody .loginLeft .icons {
+  padding-left: 15px;
+}
+.signin .loginModalBody .loginLeft .icons img {
+  margin: 3px 12px;
+}
+.signin .loginModalBody .loginLeft .icons h6 {
+  margin: 0;
+  margin-left: 10px !important;
+  color: #fff;
+  font-family: 'FiraSans-Regular';
+}
+.signin .loginModalBody .loginLeft .icons p {
+  font-size: 13px;
+  margin-left: 10px !important;
+  color: #fff;
+  font-family: 'FiraSans-Thin';
+}
+.signin .loginModalBody .loginLeft .body {
+  margin: 25px 0;
+}
+.signin .loginModalBody .loginLeft .body h6 {
+  margin: 8px 0;
+}
+.signin .loginModalBody .loginLeft .icons .googlePlays {
+
+}
+.signin .loginModalBody .loginLeft .icons .googlePlays img {
+  margin-right: 5px;
+}
+
+.signin .loginModalBody .loginRight {
+  padding: 40px 20px;
+}
+.signin .loginModalBody .loginRight .loginAlert {
+  font-family: 'FiraSans-Regular';
+  font-size: 10.5px;
+  margin: 0;
+}
+.signin .loginModalBody .loginRight img {
+
+}
+.signin .loginModalBody .loginRight h2 {
+  font-family: 'FiraSans-Bold';
+  margin-top: 20px;
+  font-size: 34px;
+  color: #DB8655;
+  text-align: center;
+}
+.signin .loginModalBody .loginRight .forms {
+  width: 80%;
+  margin: 0 auto;
+}
+.signin .loginModalBody .loginRight .forms input[type="email"],
+.signin .loginModalBody .loginRight .forms input[type="password"]{
+  width: 100%;
+  outline: none;
+  margin: 8px 0;
+  font-family: 'FiraSans-Regular';
+  font-size: 13px;
+  color: gray;
+  border: none;
+  border-bottom: 1px solid gray;
+  padding: 6px 5px;
+  background-color: Transparent;
+}
+.signin .loginModalBody .loginRight .forms input::placeholder {
+  color: #D0BBA4;
+}
+.signin .loginModalBody .loginRight .forms button.submit {
+  background-image: linear-gradient(-180deg, #E58B69 0%, #CB713E 100%);
+  border: none;
+  color: #fff;
+  font-family: 'FiraSans-Regular';
+  font-size: 13px;
+  width: 100%;
+  padding: 9px 0;
+  margin: 15px 0;
+  border-radius: 1px;
+  cursor: pointer;
+  outline: none;
+}
+.signin .loginModalBody .loginRight .forms div.rememberForgot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.signin .loginModalBody .loginRight .forms div.rememberForgot span {
+  font-family: 'FiraSans-Regular';
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.signin .loginModalBody .loginRight .forms div.rememberForgot span input[type="checkbox"]{
+
+}
+.signin .loginModalBody .loginRight .forms div.rememberForgot span label {
+  margin: 0 5px;
+  color: #64645B;
+  font-family: 'FiraSans-Light';
+}
+.signin .loginModalBody .loginRight .forms div.rememberForgot a {
+  font-family: 'FiraSans-Regular';
+  color: #64645B;
+  font-size: 12px;
+}
+.signin .loginModalBody .loginRight .forms div.bottomDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  padding-top: 15px;
+  border-top: 1px solid #D0BBA4;
+}
+.signin .loginModalBody .loginRight .forms div.bottomDiv label {
+  margin: 0;
+  font-size: 12px;
+  color: #64645B;
+  font-family: 'FiraSans-Light';
+  color: #64645B;
+}
+.signin .loginModalBody .loginRight .forms div.bottomDiv a {
+  color: #282800;
+  font-family: 'FiraSans-Regular';
+  cursor: pointer;
+}
+.signin .loginModalBody .loginRight .forms div.bottomDiv a:hover {
+  text-decoration: underline;
+}

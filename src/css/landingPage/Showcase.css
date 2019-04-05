@@ -1,0 +1,127 @@
+.showcase {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background: url('../../images/BG-Banner.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* background-attachment: fixed; */
+  background-size: cover;
+
+}
+.showcase .showcaseContent {
+  padding-top: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.showcase .showcaseContent .left {
+
+}
+.showcase .showcaseContent .left h1 {
+  font-family: 'FiraSans-Bold';
+  font-size: 44px;
+  color: #DB8655;
+  line-height: 62px;
+}
+@media(max-width: 991px){
+  .showcase .showcaseContent .left h1 {
+    font-size: 37px;
+    line-height: 45px;
+  }
+  .showcase .showcaseContent .left p {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #64645B;
+  }
+}
+.showcase .showcaseContent .left h1 span {
+  border-top: 7px solid #DB8655;
+  padding: 15px 0;
+}
+.showcase .showcaseContent .left p {
+  font-family: 'FiraSans-Medium';
+  margin-top: 20px;
+  font-size: 14px;
+  color: #64645B;
+}
+.showcase .showcaseContent .left button {
+  width: 158px;
+  height: 38px;
+  margin-top: 40px;
+  margin-right: 10px;
+  outline: none;
+  border: none;
+  font-family: 'FiraSans-Medium';
+  font-size: 14px;
+  cursor: pointer;
+}
+.showcase .showcaseContent .left button.whitePaper {
+  color: #fff;
+  margin-bottom: 5px;
+  background-image: linear-gradient(-180deg, #E58B69 0%, #CB713E 100%);
+}
+.showcase .showcaseContent .left button.learnMore {
+  background: Transparent;
+  margin-top: 5px;
+  border: 2px solid #64645B;
+  color: #64645B;
+}
+
+
+.showcase .showcaseContent .right {
+  text-align: center;
+  position: relative;
+  z-index: 0;
+  overflow: hidden !important;
+}
+.showcase .showcaseContent .right img{
+  margin-top: 20px;
+  position: relative;
+  -webkit-animation: mymove 3s infinite;
+  animation: mymove 3s infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+}
+
+
+/* safari */
+@-webkit-keyframes mymove {
+  from {top: 0px;}
+  to {top: 50px;}
+}
+/* standard */
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 50px;}
+}
+
+
+@media(max-width: 600px){
+  .showcase {
+    height: 100%;
+  }
+  .showcase .showcaseContent .left button {
+    width: 100%;
+  }
+}
+
+@media(max-width: 420px){
+  .showcase {
+    height: 100%;
+  }
+  .showcase .showcaseContent .left button {
+    width: 100%;
+  }
+}
+@media(max-width: 360px){
+  .showcase {
+    height: 100%;
+  }
+  .showcase .showcaseContent .left button {
+    width: 100%;
+  }
+  .showcase .showcaseContent .right img {
+    width: 100%;
+  }
+}

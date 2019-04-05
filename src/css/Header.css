@@ -1,0 +1,113 @@
+.header {
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  z-index: 100;
+}
+
+.header .headerContent {
+  background-color: Transparent !important;
+}
+
+/*  MODAL ENTRY */
+.header .headerContent .loginModal {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+.loginModalBody {
+  background-color: #fff;
+  height: 100%;
+}
+.styles_modal__gNwvD {
+  width: 100%;
+  margin: auto;
+  padding: 0;
+}
+
+/* END MODAL */
+
+
+.header .headerContent .logoBar {
+  overflow-x: hidden;
+}
+.header .headerContent .navbar-toggler {
+  overflow-x: hidden;
+}
+.header .headerContent ul {
+  border-radius: 6px;
+  transition: 0.3s;
+}
+@media(max-width: 767px){
+  .header .headerContent ul {
+    background-color: #ecf0f1;
+    opacity: 0.9;
+    transition: 0.3s;
+    padding: 10px 8px;
+  }
+  .header .headerContent ul li {
+    padding: 2px 0;
+  }
+}
+.header .headerContent ul li {
+  margin: 0 10px;
+}
+.header .headerContent ul li a {
+  font-size: 14px;
+  font-family: 'FiraSans-Medium';
+  color: #64645B;
+  transition: 0.2s;
+  cursor: pointer;
+  text-decoration: none;
+}
+.header .headerContent ul li button.signin {
+  border: none;
+  background-image: linear-gradient(-180deg, #E58B69 0%, #CB713E 100%);
+  color: #fff;
+  font-family: 'FiraSans-Medium';
+  font-size: 14px;
+  padding: 3px 15px;
+  border-radius: 2px;
+  cursor: pointer;
+  outline: none;
+}
+.header .headerContent ul li button.accountButton {
+  background-image: linear-gradient(-180deg, #E58B69 0%, #CB713E 100%);
+  color: #fff;
+  border: none;
+  font-family: 'FiraSans-Medium';
+  font-size: 14px;
+  color: #fff;
+  padding: 1px 6px;
+  border-radius: 3px;
+  margin: 0 5px;
+  outline: none;
+}
+.header .headerContent ul li button.accountButton::after {
+  outline: none !important;
+}
+.header .headerContent .language {
+  background-color: Transparent !important;
+  border: none;
+  font-family: 'FiraSans-Medium';
+  font-size: 12px;
+  color: #64645B;
+  padding: 0;
+  margin: 0 5px;
+  outline: none;
+}
+.header .headerContent .languageItem {
+  font-family: 'FiraSans-Regular' !important;
+  font-size: 14px;
+  color: #64645B;
+}
+.header .headerContent .languageItem:active {
+  background-image: linear-gradient(-180deg, #E58B69 0%, #CB713E 100%);
+  color: #fff;
+  outline: none;
+  border-radius: 0;
+}
+.header .headerContent ul li a:hover {
+  color: #000;
+  transition: 0.2s;
+}

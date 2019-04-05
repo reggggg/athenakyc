@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="28px" viewBox="0 0 90 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>BTN-SignUp</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#E58B69" offset="0%"></stop>
+            <stop stop-color="#CB713E" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="AthenaKYC-Proto1" transform="translate(-1060.000000, -15.000000)" fill="url(#linearGradient-1)">
+            <g id="Navigation-Bar" transform="translate(171.000000, 11.000000)">
+                <g id="Sign-Up" transform="translate(889.000000, 4.000000)">
+                    <rect id="BTN-SignUp" x="0" y="0" width="90" height="28"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

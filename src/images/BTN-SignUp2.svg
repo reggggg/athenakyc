@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="166px" height="47px" viewBox="0 0 166 47" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>BTN-SignUp2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-7.6%" y="-31.6%" width="115.2%" height="163.2%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <radialGradient cx="50%" cy="1.55510504%" fx="50%" fy="1.55510504%" r="178.155524%" gradientTransform="translate(0.500000,0.015551),scale(0.240506,1.000000),rotate(90.000000),scale(1.000000,1.134847),translate(-0.500000,-0.015551)" id="radialGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#EAE8DC" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="AthenaKYC-Proto1" transform="translate(-1033.000000, -1949.000000)" fill="url(#radialGradient-2)">
+            <g id="Sign-Up-Section" transform="translate(0.000000, 1380.000000)">
+                <g id="Group-6" transform="translate(683.000000, 76.000000)">
+                    <g id="SignUp" filter="url(#filter-1)" transform="translate(354.000000, 495.500000)">
+                        <rect id="BTN-SignUp2" x="0" y="0" width="158" height="38"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
